@@ -1,0 +1,80 @@
+12:28:26.157 INFO - Selenium build info: version: '3.8.1', revision: '6e95a6684b'
+12:28:26.158 INFO - Launching a standalone Selenium Server
+2018-01-24 12:28:26.338:INFO::main: Logging initialized @590ms to org.seleniumhq.jetty9.util.log.StdErrLog
+12:28:26.405 INFO - Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+12:28:26.434 INFO - Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+12:28:26.438 INFO - Using `new EdgeOptions()` is preferred to `DesiredCapabilities.edge()`
+12:28:26.441 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+12:28:26.441 INFO - Using `new OperaOptions()` is preferred to `DesiredCapabilities.operaBlink()`
+12:28:26.442 INFO - Using `new SafariOptions()` is preferred to `DesiredCapabilities.safari()`
+12:28:26.446 INFO - Driver class not found: org.openqa.selenium.phantomjs.PhantomJSDriver
+12:28:26.508 INFO - Driver provider class org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+ registration capabilities Capabilities {browserName: internet explorer, ensureCleanSession: true, platform: WINDOWS, version: } does not match the current platform LINUX
+12:28:26.509 INFO - Driver provider class org.openqa.selenium.edge.EdgeDriver registration is skipped:
+ registration capabilities Capabilities {browserName: MicrosoftEdge, platform: WINDOWS, version: } does not match the current platform LINUX
+12:28:26.510 INFO - Driver provider class org.openqa.selenium.safari.SafariDriver registration is skipped:
+ registration capabilities Capabilities {browserName: safari, platform: MAC, version: } does not match the current platform LINUX
+12:28:26.575 INFO - Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+12:28:26.576 INFO - Using `new EdgeOptions()` is preferred to `DesiredCapabilities.edge()`
+12:28:26.577 INFO - Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+12:28:26.577 INFO - Using `new OperaOptions()` is preferred to `DesiredCapabilities.operaBlink()`
+12:28:26.577 INFO - Using `new SafariOptions()` is preferred to `DesiredCapabilities.safari()`
+12:28:26.608 INFO - Using the passthrough mode handler
+2018-01-24 12:28:26.680:INFO:osjs.Server:main: jetty-9.4.7.v20170914
+2018-01-24 12:28:26.733:WARN:osjs.SecurityHandler:main: ServletContext@o.s.j.s.ServletContextHandler@52f759d7{/,null,STARTING} has uncovered http methods for path: /
+2018-01-24 12:28:26.742:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@52f759d7{/,null,AVAILABLE}
+2018-01-24 12:28:26.772:INFO:osjs.AbstractConnector:main: Started ServerConnector@6f6367bd{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2018-01-24 12:28:26.774:INFO:osjs.Server:main: Started @1026ms
+12:28:26.774 INFO - Selenium Server is up and running
+2018-01-24 12:28:27.105:INFO:osjshC.ROOT:qtp124313277-13: org.openqa.selenium.remote.server.WebDriverServlet-5a1c0542: Initialising WebDriverServlet
+12:28:27.184 INFO - Found handler: org.openqa.selenium.remote.server.commandhandler.BeginSession@32e158f7
+12:28:27.191 INFO - /session: Executing POST on /session (handler: BeginSession)
+12:28:27.309 INFO - Capabilities are: Capabilities {acceptSslCerts: true, browserName: firefox, javascriptEnabled: true, name: Step Test}
+12:28:27.319 INFO - Capabilities {acceptSslCerts: true, browserName: firefox, javascriptEnabled: true, name: Step Test} matched class org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.firefox.GeckoDriverService)
+1516771707349	geckodriver	INFO	geckodriver 0.19.1
+1516771707354	geckodriver	INFO	Listening on 127.0.0.1:29872
+1516771708040	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.lnAkXvkUCGkY"
+1516771708875	Marionette	INFO	Enabled via --marionette
+1516771710721	Marionette	INFO	Listening on port 37329
+12:28:30.977 INFO - Detected dialect: W3C
+12:28:31.087 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@3c85602a
+12:28:31.087 INFO - Handler thread for session d6e02655-a269-40f6-9580-1a9fdd27088b (firefox): Executing POST on /session/d6e02655-a269-40f6-9580-1a9fdd27088b/url (handler: ServicedSession)
+12:28:31.688 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@3c85602a
+12:28:31.690 INFO - Handler thread for session d6e02655-a269-40f6-9580-1a9fdd27088b (firefox): Executing POST on /session/d6e02655-a269-40f6-9580-1a9fdd27088b/elements (handler: ServicedSession)
+12:28:31.730 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@3c85602a
+12:28:31.731 INFO - Handler thread for session d6e02655-a269-40f6-9580-1a9fdd27088b (firefox): Executing GET on /session/d6e02655-a269-40f6-9580-1a9fdd27088b/element/510528d3-a252-42d9-a803-4d15eee8539d/displayed (handler: ServicedSession)
+12:28:31.802 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@3c85602a
+12:28:31.802 INFO - Handler thread for session d6e02655-a269-40f6-9580-1a9fdd27088b (firefox): Executing POST on /session/d6e02655-a269-40f6-9580-1a9fdd27088b/element (handler: ServicedSession)
+12:28:31.826 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@3c85602a
+12:28:31.828 INFO - Handler thread for session d6e02655-a269-40f6-9580-1a9fdd27088b (firefox): Executing POST on /session/d6e02655-a269-40f6-9580-1a9fdd27088b/element/ca17d821-4d3c-429b-a19b-35f725a71810/click (handler: ServicedSession)
+12:28:32.590 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@3c85602a
+12:28:32.591 INFO - Handler thread for session d6e02655-a269-40f6-9580-1a9fdd27088b (firefox): Executing POST on /session/d6e02655-a269-40f6-9580-1a9fdd27088b/elements (handler: ServicedSession)
+12:28:32.625 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@3c85602a
+12:28:32.626 INFO - Handler thread for session d6e02655-a269-40f6-9580-1a9fdd27088b (firefox): Executing GET on /session/d6e02655-a269-40f6-9580-1a9fdd27088b/element/a3815365-961c-4f7c-afec-9c57bb68da08/displayed (handler: ServicedSession)
+12:28:32.697 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@3c85602a
+12:28:32.699 INFO - Handler thread for session d6e02655-a269-40f6-9580-1a9fdd27088b (firefox): Executing GET on /session/d6e02655-a269-40f6-9580-1a9fdd27088b/title (handler: ServicedSession)
+12:28:32.715 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@3c85602a
+12:28:32.717 INFO - Handler thread for session d6e02655-a269-40f6-9580-1a9fdd27088b (firefox): Executing POST on /session/d6e02655-a269-40f6-9580-1a9fdd27088b/element (handler: ServicedSession)
+12:28:32.758 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@3c85602a
+12:28:32.760 INFO - Handler thread for session d6e02655-a269-40f6-9580-1a9fdd27088b (firefox): Executing POST on /session/d6e02655-a269-40f6-9580-1a9fdd27088b/element/3d2adb2d-80ae-4943-a418-a4c21273486b/value (handler: ServicedSession)
+12:28:32.854 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@3c85602a
+12:28:32.854 INFO - Handler thread for session d6e02655-a269-40f6-9580-1a9fdd27088b (firefox): Executing POST on /session/d6e02655-a269-40f6-9580-1a9fdd27088b/element (handler: ServicedSession)
+12:28:32.870 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@3c85602a
+12:28:32.870 INFO - Handler thread for session d6e02655-a269-40f6-9580-1a9fdd27088b (firefox): Executing POST on /session/d6e02655-a269-40f6-9580-1a9fdd27088b/element/1af3989f-4861-4243-8507-957d371ac9a9/value (handler: ServicedSession)
+12:28:32.904 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@3c85602a
+12:28:32.904 INFO - Handler thread for session d6e02655-a269-40f6-9580-1a9fdd27088b (firefox): Executing POST on /session/d6e02655-a269-40f6-9580-1a9fdd27088b/element (handler: ServicedSession)
+12:28:32.918 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@3c85602a
+12:28:32.918 INFO - Handler thread for session d6e02655-a269-40f6-9580-1a9fdd27088b (firefox): Executing POST on /session/d6e02655-a269-40f6-9580-1a9fdd27088b/element/f15b7a5d-08f8-4930-817d-9c86463a2a52/click (handler: ServicedSession)
+12:28:34.238 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@3c85602a
+12:28:34.239 INFO - Handler thread for session d6e02655-a269-40f6-9580-1a9fdd27088b (firefox): Executing POST on /session/d6e02655-a269-40f6-9580-1a9fdd27088b/elements (handler: ServicedSession)
+12:28:34.298 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@3c85602a
+12:28:34.299 INFO - Handler thread for session d6e02655-a269-40f6-9580-1a9fdd27088b (firefox): Executing GET on /session/d6e02655-a269-40f6-9580-1a9fdd27088b/element/19431bb3-a73c-44e9-85ff-e8f381f396f6/displayed (handler: ServicedSession)
+12:28:34.352 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@3c85602a
+12:28:34.353 INFO - Handler thread for session d6e02655-a269-40f6-9580-1a9fdd27088b (firefox): Executing GET on /session/d6e02655-a269-40f6-9580-1a9fdd27088b/title (handler: ServicedSession)
+12:28:34.374 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@3c85602a
+12:28:34.376 INFO - Handler thread for session d6e02655-a269-40f6-9580-1a9fdd27088b (firefox): Executing POST on /session/d6e02655-a269-40f6-9580-1a9fdd27088b/elements (handler: ServicedSession)
+12:28:34.415 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@3c85602a
+12:28:34.416 INFO - Handler thread for session d6e02655-a269-40f6-9580-1a9fdd27088b (firefox): Executing DELETE on /session/d6e02655-a269-40f6-9580-1a9fdd27088b (handler: ServicedSession)
+[Child 19844, Chrome_ChildThread] WARNING: pipe error (19): Connection reset by peer: file /build/firefox-vacibS/firefox-58.0~b16+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 19844, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-vacibS/firefox-58.0~b16+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+12:28:34.657 INFO - Removing session org.openqa.selenium.remote.server.ServicedSession@3c85602a
